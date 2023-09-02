@@ -267,26 +267,28 @@ footer ul li {
   }
   
   .divimage {
-   width: 100%;
-  } 
+    max-width: 100%;
+
+}
   .image {
     width: 100%;
     height: auto;
   }
   .firstdiv{
     flex-direction: column-reverse;
-    margin: 50px;
   }
   .divh1 {
+    max-width: 100%;
     color: #130f43;
     height: 300px;
     text-align:center;
   }
   .divh1 h1 {
-    font-size: 13px;
+    font-size: 20px;
+    max-width: 100%;
   }
   .divh1 p {
-    font-size: 10px;
+    font-size: 16px;
     width: 120%;
     padding-top: 20px;
   }
@@ -303,44 +305,48 @@ footer ul li {
   .email button {
     background-color: #2f65f9;
     color: white;
-    padding: 10px 60px 10px 60px;
+    padding: 10px 120px 10px 120px;
     border: none;
     border-radius: 3px;
-    margin: 30px;
+    margin-top: 20px;
   }
   .display2 {
     background-size:cover;
     background-position:center;
-    background-image: url(https://drive.google.com/uc?export=view&id=1BZL7G0QG-jE9du1SB5Bo3VUUD3aySOnx);
+    background-image: url(https://drive.google.com/uc?export=view&id=16vFOZbzzMWDT6u-Zab4uwep1VmRlKfXw);
   }
   
   .seconddiv {
     max-width: 100%;
     flex-direction: column-reverse;
-    margin: 50px;
+    margin: 10px;
   }
   .text {
     max-width: 100%;
+    margin-top: 20px;
   }
   .text h1 {
-    font-size: 18px;
+    font-size: 15px;
   }
   .pone {
-    font-size: 20px;
+    font-size: 11.5px;
     padding: 0px 0px 20px 0px;
   }
   .ptwo {
-    font-size: 20px;
+    font-size: 11.5px;
     padding: 0px 0px 20px 0px;
+  }
+  .three{
+    margin-left: 50px;
   }
   .text a {
     color: #6b9e99;
-    align-items: center;
   }
   .kyle {
     background-color: white;
     padding: 20px 60px 0px 60px;
     border-radius: 5px;
+    max-width: 100%;
   }
   #textk {
     font-size: 13px;
@@ -364,38 +370,46 @@ footer ul li {
     margin-top: 5px;
     margin-bottom: 25px;
   }
+
+.divimage2 {
+    max-width: 100%;
+}
   .secondimage {
-    width: 100%;
-    m
+    max-width: 100%;
+    height: auto;
   }
   .purple {
     background-color: #575988;
-    height: 300px;
+    height: 350px;
   }
-  .pdiv {
+  .pdiv{
+    display: block;
     max-width: 100%;
-    display: flex;
   }
   .pdiv2 {
-    max-width: 60%;
+    max-width: 100%;
     color: #fefeff;
-    padding: 90px 250px 0px 60px;
+    padding-top: 50px;
+    padding-right: 60px;
   }
   .pdiv2 h1 {
-    font-size: 35px;
+    font-size: 20px;
+    max-width: 100%;
+    margin-left: 30px;
   }
   .pdiv2 p {
-    width: 490px;
-    font-size: 17px;
-    padding: 15px 0px 0px 0px;
+    max-width: 100%;
+    font-size: 15px;
+    text-align: center;
   }
   .email2 {
-    max-width: 30%;
-    padding: 90px 0px 20px 20px;
+    max-width: 100%;
+    margin: 10px;
+    padding: 30px 0px 20px 20px;
   }
   .email2 input {
     height: 50px;
-    width: 450px;
+    width: 350px;
     border: none;
     border-radius: 3px;
     padding: 0px 0px 0px 30px;
@@ -405,7 +419,7 @@ footer ul li {
     border: none;
     height: 40px;
     color: white;
-    width: 150px;
+    width: 350px;
     margin-top: 12px;
   }
   
@@ -414,7 +428,7 @@ footer ul li {
     max-width: 45%;
   }
   #a2 {
-    padding: 20px;
+    padding: 0px;
   }
   .b {
     width: 300px;
@@ -432,15 +446,19 @@ footer ul li {
     background-color: #07043b;
     color: white;
     padding: 100px 60px;
+    max-height: 815px;
   }
-  
+  footer img{
+    margin-bottom: 40px;
+  }
   .footerLinks {
     max-width: 100%;
+    display: block;
   }
-  
   
   footer ul {
     list-style: none;
+    margin-top: 30px;
   }
   
   footer ul a {
@@ -450,10 +468,14 @@ footer ul li {
   
   footer ul li {
     padding-bottom: 20px;
+    width: 80px;
+  }
+  .ficons{
+    margin-left: 60px;
   }
   .ficons img{
     width: 35px;
-    margin-right: 10px;
+    margin-top: 40px;
   }
   
 }
